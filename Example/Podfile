@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MockStoreKit_Tests' do
+  pod 'MockStoreKit', :path => '../'
+  
+  
+end

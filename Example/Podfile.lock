@@ -1,0 +1,16 @@
+PODS:
+  - MockStoreKit (0.1.0)
+
+DEPENDENCIES:
+  - MockStoreKit (from `../`)
+
+EXTERNAL SOURCES:
+  MockStoreKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MockStoreKit: 808422788c435da39cd2ea540fec52a38808d03f
+
+PODFILE CHECKSUM: efed1580f4802bdb3a983df6a7dc323d9f76a587
+
+COCOAPODS: 1.1.1
