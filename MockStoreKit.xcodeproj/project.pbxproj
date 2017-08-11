@@ -10,23 +10,23 @@
 		84147C241F3E0619006F056D /* MockStoreKit_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147C1B1F3E0619006F056D /* MockStoreKit_TV.framework */; };
 		84147C291F3E0619006F056D /* MockStoreKit_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C281F3E0619006F056D /* MockStoreKit_TVTests.swift */; };
 		84147C2B1F3E0619006F056D /* MockStoreKit-TV.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147C1D1F3E0619006F056D /* MockStoreKit-TV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84147C401F3E0698006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C361F3E0698006F056D /* SKError.swift */; };
-		84147C421F3E0698006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C371F3E0698006F056D /* SKPayment.swift */; };
-		84147C441F3E0698006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C381F3E0698006F056D /* SKPaymentQueue.swift */; };
-		84147C461F3E0698006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C391F3E0698006F056D /* SKPaymentTransactionState.swift */; };
-		84147C481F3E0698006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3A1F3E0698006F056D /* SKProduct.swift */; };
-		84147C4A1F3E0698006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3B1F3E0698006F056D /* SKProductsRequest.swift */; };
-		84147C4C1F3E0698006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3C1F3E0698006F056D /* SKRequest.swift */; };
 		84147C5B1F3E071B006F056D /* MockStoreKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */; };
 		84147C601F3E071B006F056D /* MockStoreKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C5F1F3E071B006F056D /* MockStoreKit_iOSTests.swift */; };
 		84147C621F3E071B006F056D /* MockStoreKit_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147C541F3E071A006F056D /* MockStoreKit_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84147C691F3E0747006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C361F3E0698006F056D /* SKError.swift */; };
-		84147C6A1F3E0747006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C371F3E0698006F056D /* SKPayment.swift */; };
-		84147C6B1F3E0747006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C381F3E0698006F056D /* SKPaymentQueue.swift */; };
-		84147C6C1F3E0747006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C391F3E0698006F056D /* SKPaymentTransactionState.swift */; };
-		84147C6D1F3E0747006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3A1F3E0698006F056D /* SKProduct.swift */; };
-		84147C6E1F3E0747006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3B1F3E0698006F056D /* SKProductsRequest.swift */; };
-		84147C6F1F3E0747006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C3C1F3E0698006F056D /* SKRequest.swift */; };
+		84147C771F3E09E7006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
+		84147C781F3E09E7006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
+		84147C791F3E09E7006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
+		84147C7A1F3E09E7006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
+		84147C7B1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
+		84147C7C1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
+		84147C7D1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
+		84147C7E1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
+		84147C7F1F3E09E7006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
+		84147C801F3E09E7006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
+		84147C811F3E09E7006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
+		84147C821F3E09E7006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
+		84147C831F3E09E7006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
+		84147C841F3E09E7006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,19 +53,19 @@
 		84147C231F3E0619006F056D /* MockStoreKit_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKit_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84147C281F3E0619006F056D /* MockStoreKit_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKit_TVTests.swift; sourceTree = "<group>"; };
 		84147C2A1F3E0619006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84147C361F3E0698006F056D /* SKError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKError.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKError.swift"; sourceTree = "<group>"; };
-		84147C371F3E0698006F056D /* SKPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPayment.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKPayment.swift"; sourceTree = "<group>"; };
-		84147C381F3E0698006F056D /* SKPaymentQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPaymentQueue.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKPaymentQueue.swift"; sourceTree = "<group>"; };
-		84147C391F3E0698006F056D /* SKPaymentTransactionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPaymentTransactionState.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKPaymentTransactionState.swift"; sourceTree = "<group>"; };
-		84147C3A1F3E0698006F056D /* SKProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProduct.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKProduct.swift"; sourceTree = "<group>"; };
-		84147C3B1F3E0698006F056D /* SKProductsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProductsRequest.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKProductsRequest.swift"; sourceTree = "<group>"; };
-		84147C3C1F3E0698006F056D /* SKRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKRequest.swift; path = "../../savetv-ios-dev/fckStoreKit/fckStoreKit/Classes/SKRequest.swift"; sourceTree = "<group>"; };
 		84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockStoreKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84147C541F3E071A006F056D /* MockStoreKit_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockStoreKit_iOS.h; sourceTree = "<group>"; };
 		84147C551F3E071A006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84147C5A1F3E071A006F056D /* MockStoreKit_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKit_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84147C5F1F3E071B006F056D /* MockStoreKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKit_iOSTests.swift; sourceTree = "<group>"; };
 		84147C611F3E071B006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84147C701F3E09E7006F056D /* SKError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKError.swift; path = Classes/SKError.swift; sourceTree = "<group>"; };
+		84147C711F3E09E7006F056D /* SKPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPayment.swift; path = Classes/SKPayment.swift; sourceTree = "<group>"; };
+		84147C721F3E09E7006F056D /* SKPaymentQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPaymentQueue.swift; path = Classes/SKPaymentQueue.swift; sourceTree = "<group>"; };
+		84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPaymentTransactionState.swift; path = Classes/SKPaymentTransactionState.swift; sourceTree = "<group>"; };
+		84147C741F3E09E7006F056D /* SKProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProduct.swift; path = Classes/SKProduct.swift; sourceTree = "<group>"; };
+		84147C751F3E09E7006F056D /* SKProductsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProductsRequest.swift; path = Classes/SKProductsRequest.swift; sourceTree = "<group>"; };
+		84147C761F3E09E7006F056D /* SKRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKRequest.swift; path = Classes/SKRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,13 +164,13 @@
 		849261CA1E58A6B900BC29DA /* MockStoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				84147C361F3E0698006F056D /* SKError.swift */,
-				84147C371F3E0698006F056D /* SKPayment.swift */,
-				84147C381F3E0698006F056D /* SKPaymentQueue.swift */,
-				84147C391F3E0698006F056D /* SKPaymentTransactionState.swift */,
-				84147C3A1F3E0698006F056D /* SKProduct.swift */,
-				84147C3B1F3E0698006F056D /* SKProductsRequest.swift */,
-				84147C3C1F3E0698006F056D /* SKRequest.swift */,
+				84147C701F3E09E7006F056D /* SKError.swift */,
+				84147C711F3E09E7006F056D /* SKPayment.swift */,
+				84147C721F3E09E7006F056D /* SKPaymentQueue.swift */,
+				84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */,
+				84147C741F3E09E7006F056D /* SKProduct.swift */,
+				84147C751F3E09E7006F056D /* SKProductsRequest.swift */,
+				84147C761F3E09E7006F056D /* SKRequest.swift */,
 			);
 			path = MockStoreKit;
 			sourceTree = "<group>";
@@ -281,6 +281,7 @@
 				TargetAttributes = {
 					84147C1A1F3E0619006F056D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					84147C221F3E0619006F056D = {
@@ -289,6 +290,7 @@
 					};
 					84147C511F3E071A006F056D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					84147C591F3E071A006F056D = {
@@ -353,13 +355,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C421F3E0698006F056D /* SKPayment.swift in Sources */,
-				84147C4A1F3E0698006F056D /* SKProductsRequest.swift in Sources */,
-				84147C461F3E0698006F056D /* SKPaymentTransactionState.swift in Sources */,
-				84147C441F3E0698006F056D /* SKPaymentQueue.swift in Sources */,
-				84147C4C1F3E0698006F056D /* SKRequest.swift in Sources */,
-				84147C401F3E0698006F056D /* SKError.swift in Sources */,
-				84147C481F3E0698006F056D /* SKProduct.swift in Sources */,
+				84147C791F3E09E7006F056D /* SKPayment.swift in Sources */,
+				84147C811F3E09E7006F056D /* SKProductsRequest.swift in Sources */,
+				84147C7D1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */,
+				84147C7B1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */,
+				84147C831F3E09E7006F056D /* SKRequest.swift in Sources */,
+				84147C771F3E09E7006F056D /* SKError.swift in Sources */,
+				84147C7F1F3E09E7006F056D /* SKProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,13 +377,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C6A1F3E0747006F056D /* SKPayment.swift in Sources */,
-				84147C6E1F3E0747006F056D /* SKProductsRequest.swift in Sources */,
-				84147C6C1F3E0747006F056D /* SKPaymentTransactionState.swift in Sources */,
-				84147C6B1F3E0747006F056D /* SKPaymentQueue.swift in Sources */,
-				84147C6F1F3E0747006F056D /* SKRequest.swift in Sources */,
-				84147C691F3E0747006F056D /* SKError.swift in Sources */,
-				84147C6D1F3E0747006F056D /* SKProduct.swift in Sources */,
+				84147C7A1F3E09E7006F056D /* SKPayment.swift in Sources */,
+				84147C821F3E09E7006F056D /* SKProductsRequest.swift in Sources */,
+				84147C7E1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */,
+				84147C7C1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */,
+				84147C841F3E09E7006F056D /* SKRequest.swift in Sources */,
+				84147C781F3E09E7006F056D /* SKError.swift in Sources */,
+				84147C801F3E09E7006F056D /* SKProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -425,6 +428,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
@@ -435,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -487,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -499,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -507,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -660,6 +668,7 @@
 				84147C2E1F3E0619006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84147C2F1F3E0619006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TVTests" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +677,7 @@
 				84147C311F3E0619006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84147C631F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOS" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +686,7 @@
 				84147C651F3E071B006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84147C661F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +695,7 @@
 				84147C681F3E071B006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849261C21E58A6B900BC29DA /* Build configuration list for PBXProject "MockStoreKit" */ = {
 			isa = XCConfigurationList;
