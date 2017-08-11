@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84147C1A1F3E0619006F056D"
-               BuildableName = "MockStoreKit_TV.framework"
-               BlueprintName = "MockStoreKit_TV"
+               BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+               BuildableName = "MockStoreKit.framework"
+               BlueprintName = "MockStoreKit"
                ReferencedContainer = "container:MockStoreKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84147C221F3E0619006F056D"
-               BuildableName = "MockStoreKit_TVTests.xctest"
-               BlueprintName = "MockStoreKit_TVTests"
+               BlueprintIdentifier = "84147C961F3E0B89006F056D"
+               BuildableName = "MockStoreKitTests.xctest"
+               BlueprintName = "MockStoreKitTests"
                ReferencedContainer = "container:MockStoreKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84147C1A1F3E0619006F056D"
-            BuildableName = "MockStoreKit_TV.framework"
-            BlueprintName = "MockStoreKit_TV"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84147C1A1F3E0619006F056D"
-            BuildableName = "MockStoreKit_TV.framework"
-            BlueprintName = "MockStoreKit_TV"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "84147C1A1F3E0619006F056D"
-            BuildableName = "MockStoreKit_TV.framework"
-            BlueprintName = "MockStoreKit_TV"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

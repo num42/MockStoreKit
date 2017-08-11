@@ -1,15 +1,15 @@
 //
-//  MockStoreKit_TVTests.swift
-//  MockStoreKit-TVTests
+//  MockStoreKitTests.swift
+//  MockStoreKitTests
 //
 //  Created by Wolfgang Lutz on 11.08.17.
 //  Copyright © 2017 Wolfgang Lutz. All rights reserved.
 //
 
 import XCTest
-@testable import MockStoreKit_TV
+@testable import MockStoreKit
 
-class MockStoreKit_TVTests: XCTestCase {
+class MockStoreKitTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

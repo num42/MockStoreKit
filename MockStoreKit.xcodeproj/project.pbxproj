@@ -7,58 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84147C241F3E0619006F056D /* MockStoreKit_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147C1B1F3E0619006F056D /* MockStoreKit_TV.framework */; };
-		84147C291F3E0619006F056D /* MockStoreKit_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C281F3E0619006F056D /* MockStoreKit_TVTests.swift */; };
-		84147C2B1F3E0619006F056D /* MockStoreKit-TV.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147C1D1F3E0619006F056D /* MockStoreKit-TV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84147C5B1F3E071B006F056D /* MockStoreKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */; };
-		84147C601F3E071B006F056D /* MockStoreKit_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C5F1F3E071B006F056D /* MockStoreKit_iOSTests.swift */; };
-		84147C621F3E071B006F056D /* MockStoreKit_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147C541F3E071A006F056D /* MockStoreKit_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84147C771F3E09E7006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
-		84147C781F3E09E7006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
-		84147C791F3E09E7006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
-		84147C7A1F3E09E7006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
-		84147C7B1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
-		84147C7C1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
-		84147C7D1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
-		84147C7E1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
-		84147C7F1F3E09E7006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
-		84147C801F3E09E7006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
-		84147C811F3E09E7006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
-		84147C821F3E09E7006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
-		84147C831F3E09E7006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
-		84147C841F3E09E7006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
+		84147C981F3E0B89006F056D /* MockStoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147C8F1F3E0B89006F056D /* MockStoreKit.framework */; };
+		84147C9D1F3E0B89006F056D /* MockStoreKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C9C1F3E0B89006F056D /* MockStoreKitTests.swift */; };
+		84147C9F1F3E0B89006F056D /* MockStoreKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147C911F3E0B89006F056D /* MockStoreKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84147CA61F3E0BA6006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
+		84147CA71F3E0BA6006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
+		84147CA81F3E0BA6006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
+		84147CA91F3E0BA6006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
+		84147CAA1F3E0BA6006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
+		84147CAB1F3E0BA6006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
+		84147CAC1F3E0BA6006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
+		84147CBB1F3E0BD9006F056D /* MockStoreKit_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84147CB21F3E0BD9006F056D /* MockStoreKit_TV.framework */; };
+		84147CC01F3E0BD9006F056D /* MockStoreKit_TVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147CBF1F3E0BD9006F056D /* MockStoreKit_TVTests.swift */; };
+		84147CC21F3E0BD9006F056D /* MockStoreKit_TV.h in Headers */ = {isa = PBXBuildFile; fileRef = 84147CB41F3E0BD9006F056D /* MockStoreKit_TV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84147CC91F3E0BE6006F056D /* SKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C701F3E09E7006F056D /* SKError.swift */; };
+		84147CCA1F3E0BE6006F056D /* SKPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C711F3E09E7006F056D /* SKPayment.swift */; };
+		84147CCB1F3E0BE6006F056D /* SKPaymentQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C721F3E09E7006F056D /* SKPaymentQueue.swift */; };
+		84147CCC1F3E0BE6006F056D /* SKPaymentTransactionState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C731F3E09E7006F056D /* SKPaymentTransactionState.swift */; };
+		84147CCD1F3E0BE6006F056D /* SKProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C741F3E09E7006F056D /* SKProduct.swift */; };
+		84147CCE1F3E0BE6006F056D /* SKProductsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C751F3E09E7006F056D /* SKProductsRequest.swift */; };
+		84147CCF1F3E0BE6006F056D /* SKRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84147C761F3E09E7006F056D /* SKRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		84147C251F3E0619006F056D /* PBXContainerItemProxy */ = {
+		84147C991F3E0B89006F056D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 849261BF1E58A6B900BC29DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84147C1A1F3E0619006F056D;
-			remoteInfo = "MockStoreKit-TV";
+			remoteGlobalIDString = 84147C8E1F3E0B89006F056D;
+			remoteInfo = MockStoreKit;
 		};
-		84147C5C1F3E071B006F056D /* PBXContainerItemProxy */ = {
+		84147CBC1F3E0BD9006F056D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 849261BF1E58A6B900BC29DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 84147C511F3E071A006F056D;
-			remoteInfo = MockStoreKit_iOS;
+			remoteGlobalIDString = 84147CB11F3E0BD9006F056D;
+			remoteInfo = MockStoreKit_TV;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		84147C1B1F3E0619006F056D /* MockStoreKit_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockStoreKit_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84147C1D1F3E0619006F056D /* MockStoreKit-TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MockStoreKit-TV.h"; sourceTree = "<group>"; };
-		84147C1E1F3E0619006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84147C231F3E0619006F056D /* MockStoreKit_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKit_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84147C281F3E0619006F056D /* MockStoreKit_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKit_TVTests.swift; sourceTree = "<group>"; };
-		84147C2A1F3E0619006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockStoreKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84147C541F3E071A006F056D /* MockStoreKit_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockStoreKit_iOS.h; sourceTree = "<group>"; };
-		84147C551F3E071A006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84147C5A1F3E071A006F056D /* MockStoreKit_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKit_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84147C5F1F3E071B006F056D /* MockStoreKit_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKit_iOSTests.swift; sourceTree = "<group>"; };
-		84147C611F3E071B006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84147C701F3E09E7006F056D /* SKError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKError.swift; path = Classes/SKError.swift; sourceTree = "<group>"; };
 		84147C711F3E09E7006F056D /* SKPayment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPayment.swift; path = Classes/SKPayment.swift; sourceTree = "<group>"; };
 		84147C721F3E09E7006F056D /* SKPaymentQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKPaymentQueue.swift; path = Classes/SKPaymentQueue.swift; sourceTree = "<group>"; };
@@ -66,86 +54,98 @@
 		84147C741F3E09E7006F056D /* SKProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProduct.swift; path = Classes/SKProduct.swift; sourceTree = "<group>"; };
 		84147C751F3E09E7006F056D /* SKProductsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKProductsRequest.swift; path = Classes/SKProductsRequest.swift; sourceTree = "<group>"; };
 		84147C761F3E09E7006F056D /* SKRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SKRequest.swift; path = Classes/SKRequest.swift; sourceTree = "<group>"; };
+		84147C8F1F3E0B89006F056D /* MockStoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockStoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84147C911F3E0B89006F056D /* MockStoreKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockStoreKit.h; sourceTree = "<group>"; };
+		84147C921F3E0B89006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84147C971F3E0B89006F056D /* MockStoreKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84147C9C1F3E0B89006F056D /* MockStoreKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKitTests.swift; sourceTree = "<group>"; };
+		84147C9E1F3E0B89006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84147CB21F3E0BD9006F056D /* MockStoreKit_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MockStoreKit_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84147CB41F3E0BD9006F056D /* MockStoreKit_TV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockStoreKit_TV.h; sourceTree = "<group>"; };
+		84147CB51F3E0BD9006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84147CBA1F3E0BD9006F056D /* MockStoreKit_TVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MockStoreKit_TVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84147CBF1F3E0BD9006F056D /* MockStoreKit_TVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockStoreKit_TVTests.swift; sourceTree = "<group>"; };
+		84147CC11F3E0BD9006F056D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		84147C171F3E0619006F056D /* Frameworks */ = {
+		84147C8B1F3E0B89006F056D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C201F3E0619006F056D /* Frameworks */ = {
+		84147C941F3E0B89006F056D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C241F3E0619006F056D /* MockStoreKit_TV.framework in Frameworks */,
+				84147C981F3E0B89006F056D /* MockStoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C4E1F3E071A006F056D /* Frameworks */ = {
+		84147CAE1F3E0BD9006F056D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C571F3E071A006F056D /* Frameworks */ = {
+		84147CB71F3E0BD9006F056D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C5B1F3E071B006F056D /* MockStoreKit_iOS.framework in Frameworks */,
+				84147CBB1F3E0BD9006F056D /* MockStoreKit_TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84147C1C1F3E0619006F056D /* MockStoreKit-TV */ = {
+		84147C901F3E0B89006F056D /* MockStoreKit */ = {
 			isa = PBXGroup;
 			children = (
-				84147C1D1F3E0619006F056D /* MockStoreKit-TV.h */,
-				84147C1E1F3E0619006F056D /* Info.plist */,
+				84147C911F3E0B89006F056D /* MockStoreKit.h */,
+				84147C921F3E0B89006F056D /* Info.plist */,
 			);
-			path = "MockStoreKit-TV";
+			path = MockStoreKit;
 			sourceTree = "<group>";
 		};
-		84147C271F3E0619006F056D /* MockStoreKit-TVTests */ = {
+		84147C9B1F3E0B89006F056D /* MockStoreKitTests */ = {
 			isa = PBXGroup;
 			children = (
-				84147C281F3E0619006F056D /* MockStoreKit_TVTests.swift */,
-				84147C2A1F3E0619006F056D /* Info.plist */,
+				84147C9C1F3E0B89006F056D /* MockStoreKitTests.swift */,
+				84147C9E1F3E0B89006F056D /* Info.plist */,
 			);
-			path = "MockStoreKit-TVTests";
+			path = MockStoreKitTests;
 			sourceTree = "<group>";
 		};
-		84147C531F3E071A006F056D /* MockStoreKit_iOS */ = {
+		84147CB31F3E0BD9006F056D /* MockStoreKit_TV */ = {
 			isa = PBXGroup;
 			children = (
-				84147C541F3E071A006F056D /* MockStoreKit_iOS.h */,
-				84147C551F3E071A006F056D /* Info.plist */,
+				84147CB41F3E0BD9006F056D /* MockStoreKit_TV.h */,
+				84147CB51F3E0BD9006F056D /* Info.plist */,
 			);
-			path = MockStoreKit_iOS;
+			path = MockStoreKit_TV;
 			sourceTree = "<group>";
 		};
-		84147C5E1F3E071B006F056D /* MockStoreKit_iOSTests */ = {
+		84147CBE1F3E0BD9006F056D /* MockStoreKit_TVTests */ = {
 			isa = PBXGroup;
 			children = (
-				84147C5F1F3E071B006F056D /* MockStoreKit_iOSTests.swift */,
-				84147C611F3E071B006F056D /* Info.plist */,
+				84147CBF1F3E0BD9006F056D /* MockStoreKit_TVTests.swift */,
+				84147CC11F3E0BD9006F056D /* Info.plist */,
 			);
-			path = MockStoreKit_iOSTests;
+			path = MockStoreKit_TVTests;
 			sourceTree = "<group>";
 		};
 		849261BE1E58A6B900BC29DA = {
 			isa = PBXGroup;
 			children = (
 				849261CA1E58A6B900BC29DA /* MockStoreKit */,
-				84147C1C1F3E0619006F056D /* MockStoreKit-TV */,
-				84147C271F3E0619006F056D /* MockStoreKit-TVTests */,
-				84147C531F3E071A006F056D /* MockStoreKit_iOS */,
-				84147C5E1F3E071B006F056D /* MockStoreKit_iOSTests */,
+				84147C901F3E0B89006F056D /* MockStoreKit */,
+				84147C9B1F3E0B89006F056D /* MockStoreKitTests */,
+				84147CB31F3E0BD9006F056D /* MockStoreKit_TV */,
+				84147CBE1F3E0BD9006F056D /* MockStoreKit_TVTests */,
 				849261C91E58A6B900BC29DA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -153,10 +153,10 @@
 		849261C91E58A6B900BC29DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				84147C1B1F3E0619006F056D /* MockStoreKit_TV.framework */,
-				84147C231F3E0619006F056D /* MockStoreKit_TVTests.xctest */,
-				84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */,
-				84147C5A1F3E071A006F056D /* MockStoreKit_iOSTests.xctest */,
+				84147C8F1F3E0B89006F056D /* MockStoreKit.framework */,
+				84147C971F3E0B89006F056D /* MockStoreKitTests.xctest */,
+				84147CB21F3E0BD9006F056D /* MockStoreKit_TV.framework */,
+				84147CBA1F3E0BD9006F056D /* MockStoreKit_TVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,95 +178,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		84147C181F3E0619006F056D /* Headers */ = {
+		84147C8C1F3E0B89006F056D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C2B1F3E0619006F056D /* MockStoreKit-TV.h in Headers */,
+				84147C9F1F3E0B89006F056D /* MockStoreKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C4F1F3E071A006F056D /* Headers */ = {
+		84147CAF1F3E0BD9006F056D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C621F3E071B006F056D /* MockStoreKit_iOS.h in Headers */,
+				84147CC21F3E0BD9006F056D /* MockStoreKit_TV.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		84147C1A1F3E0619006F056D /* MockStoreKit_TV */ = {
+		84147C8E1F3E0B89006F056D /* MockStoreKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84147C2C1F3E0619006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TV" */;
+			buildConfigurationList = 84147CA01F3E0B89006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit" */;
 			buildPhases = (
-				84147C161F3E0619006F056D /* Sources */,
-				84147C171F3E0619006F056D /* Frameworks */,
-				84147C181F3E0619006F056D /* Headers */,
-				84147C191F3E0619006F056D /* Resources */,
+				84147C8A1F3E0B89006F056D /* Sources */,
+				84147C8B1F3E0B89006F056D /* Frameworks */,
+				84147C8C1F3E0B89006F056D /* Headers */,
+				84147C8D1F3E0B89006F056D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MockStoreKit;
+			productName = MockStoreKit;
+			productReference = 84147C8F1F3E0B89006F056D /* MockStoreKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		84147C961F3E0B89006F056D /* MockStoreKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84147CA31F3E0B89006F056D /* Build configuration list for PBXNativeTarget "MockStoreKitTests" */;
+			buildPhases = (
+				84147C931F3E0B89006F056D /* Sources */,
+				84147C941F3E0B89006F056D /* Frameworks */,
+				84147C951F3E0B89006F056D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84147C9A1F3E0B89006F056D /* PBXTargetDependency */,
+			);
+			name = MockStoreKitTests;
+			productName = MockStoreKitTests;
+			productReference = 84147C971F3E0B89006F056D /* MockStoreKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84147CB11F3E0BD9006F056D /* MockStoreKit_TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84147CC31F3E0BD9006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TV" */;
+			buildPhases = (
+				84147CAD1F3E0BD9006F056D /* Sources */,
+				84147CAE1F3E0BD9006F056D /* Frameworks */,
+				84147CAF1F3E0BD9006F056D /* Headers */,
+				84147CB01F3E0BD9006F056D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MockStoreKit_TV;
-			productName = "MockStoreKit-TV";
-			productReference = 84147C1B1F3E0619006F056D /* MockStoreKit_TV.framework */;
+			productName = MockStoreKit_TV;
+			productReference = 84147CB21F3E0BD9006F056D /* MockStoreKit_TV.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		84147C221F3E0619006F056D /* MockStoreKit_TVTests */ = {
+		84147CB91F3E0BD9006F056D /* MockStoreKit_TVTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84147C2F1F3E0619006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TVTests" */;
+			buildConfigurationList = 84147CC61F3E0BD9006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TVTests" */;
 			buildPhases = (
-				84147C1F1F3E0619006F056D /* Sources */,
-				84147C201F3E0619006F056D /* Frameworks */,
-				84147C211F3E0619006F056D /* Resources */,
+				84147CB61F3E0BD9006F056D /* Sources */,
+				84147CB71F3E0BD9006F056D /* Frameworks */,
+				84147CB81F3E0BD9006F056D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				84147C261F3E0619006F056D /* PBXTargetDependency */,
+				84147CBD1F3E0BD9006F056D /* PBXTargetDependency */,
 			);
 			name = MockStoreKit_TVTests;
-			productName = "MockStoreKit-TVTests";
-			productReference = 84147C231F3E0619006F056D /* MockStoreKit_TVTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		84147C511F3E071A006F056D /* MockStoreKit_iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84147C631F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOS" */;
-			buildPhases = (
-				84147C4D1F3E071A006F056D /* Sources */,
-				84147C4E1F3E071A006F056D /* Frameworks */,
-				84147C4F1F3E071A006F056D /* Headers */,
-				84147C501F3E071A006F056D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MockStoreKit_iOS;
-			productName = MockStoreKit_iOS;
-			productReference = 84147C521F3E071A006F056D /* MockStoreKit_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		84147C591F3E071A006F056D /* MockStoreKit_iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84147C661F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOSTests" */;
-			buildPhases = (
-				84147C561F3E071A006F056D /* Sources */,
-				84147C571F3E071A006F056D /* Frameworks */,
-				84147C581F3E071A006F056D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84147C5D1F3E071B006F056D /* PBXTargetDependency */,
-			);
-			name = MockStoreKit_iOSTests;
-			productName = MockStoreKit_iOSTests;
-			productReference = 84147C5A1F3E071A006F056D /* MockStoreKit_iOSTests.xctest */;
+			productName = MockStoreKit_TVTests;
+			productReference = 84147CBA1F3E0BD9006F056D /* MockStoreKit_TVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -279,21 +279,19 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Wolfgang Lutz";
 				TargetAttributes = {
-					84147C1A1F3E0619006F056D = {
-						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0830;
-						ProvisioningStyle = Automatic;
-					};
-					84147C221F3E0619006F056D = {
+					84147C8E1F3E0B89006F056D = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
-					84147C511F3E071A006F056D = {
+					84147C961F3E0B89006F056D = {
 						CreatedOnToolsVersion = 8.3.3;
-						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
-					84147C591F3E071A006F056D = {
+					84147CB11F3E0BD9006F056D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					84147CB91F3E0BD9006F056D = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
@@ -311,37 +309,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				84147C1A1F3E0619006F056D /* MockStoreKit_TV */,
-				84147C221F3E0619006F056D /* MockStoreKit_TVTests */,
-				84147C511F3E071A006F056D /* MockStoreKit_iOS */,
-				84147C591F3E071A006F056D /* MockStoreKit_iOSTests */,
+				84147C8E1F3E0B89006F056D /* MockStoreKit */,
+				84147C961F3E0B89006F056D /* MockStoreKitTests */,
+				84147CB11F3E0BD9006F056D /* MockStoreKit_TV */,
+				84147CB91F3E0BD9006F056D /* MockStoreKit_TVTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		84147C191F3E0619006F056D /* Resources */ = {
+		84147C8D1F3E0B89006F056D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C211F3E0619006F056D /* Resources */ = {
+		84147C951F3E0B89006F056D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C501F3E071A006F056D /* Resources */ = {
+		84147CB01F3E0BD9006F056D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C581F3E071A006F056D /* Resources */ = {
+		84147CB81F3E0BD9006F056D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,104 +349,171 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		84147C161F3E0619006F056D /* Sources */ = {
+		84147C8A1F3E0B89006F056D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C791F3E09E7006F056D /* SKPayment.swift in Sources */,
-				84147C811F3E09E7006F056D /* SKProductsRequest.swift in Sources */,
-				84147C7D1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */,
-				84147C7B1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */,
-				84147C831F3E09E7006F056D /* SKRequest.swift in Sources */,
-				84147C771F3E09E7006F056D /* SKError.swift in Sources */,
-				84147C7F1F3E09E7006F056D /* SKProduct.swift in Sources */,
+				84147CA71F3E0BA6006F056D /* SKPayment.swift in Sources */,
+				84147CAB1F3E0BA6006F056D /* SKProductsRequest.swift in Sources */,
+				84147CA91F3E0BA6006F056D /* SKPaymentTransactionState.swift in Sources */,
+				84147CA81F3E0BA6006F056D /* SKPaymentQueue.swift in Sources */,
+				84147CAC1F3E0BA6006F056D /* SKRequest.swift in Sources */,
+				84147CA61F3E0BA6006F056D /* SKError.swift in Sources */,
+				84147CAA1F3E0BA6006F056D /* SKProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C1F1F3E0619006F056D /* Sources */ = {
+		84147C931F3E0B89006F056D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C291F3E0619006F056D /* MockStoreKit_TVTests.swift in Sources */,
+				84147C9D1F3E0B89006F056D /* MockStoreKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C4D1F3E071A006F056D /* Sources */ = {
+		84147CAD1F3E0BD9006F056D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C7A1F3E09E7006F056D /* SKPayment.swift in Sources */,
-				84147C821F3E09E7006F056D /* SKProductsRequest.swift in Sources */,
-				84147C7E1F3E09E7006F056D /* SKPaymentTransactionState.swift in Sources */,
-				84147C7C1F3E09E7006F056D /* SKPaymentQueue.swift in Sources */,
-				84147C841F3E09E7006F056D /* SKRequest.swift in Sources */,
-				84147C781F3E09E7006F056D /* SKError.swift in Sources */,
-				84147C801F3E09E7006F056D /* SKProduct.swift in Sources */,
+				84147CCA1F3E0BE6006F056D /* SKPayment.swift in Sources */,
+				84147CCE1F3E0BE6006F056D /* SKProductsRequest.swift in Sources */,
+				84147CCC1F3E0BE6006F056D /* SKPaymentTransactionState.swift in Sources */,
+				84147CCB1F3E0BE6006F056D /* SKPaymentQueue.swift in Sources */,
+				84147CCF1F3E0BE6006F056D /* SKRequest.swift in Sources */,
+				84147CC91F3E0BE6006F056D /* SKError.swift in Sources */,
+				84147CCD1F3E0BE6006F056D /* SKProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84147C561F3E071A006F056D /* Sources */ = {
+		84147CB61F3E0BD9006F056D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84147C601F3E071B006F056D /* MockStoreKit_iOSTests.swift in Sources */,
+				84147CC01F3E0BD9006F056D /* MockStoreKit_TVTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		84147C261F3E0619006F056D /* PBXTargetDependency */ = {
+		84147C9A1F3E0B89006F056D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84147C1A1F3E0619006F056D /* MockStoreKit_TV */;
-			targetProxy = 84147C251F3E0619006F056D /* PBXContainerItemProxy */;
+			target = 84147C8E1F3E0B89006F056D /* MockStoreKit */;
+			targetProxy = 84147C991F3E0B89006F056D /* PBXContainerItemProxy */;
 		};
-		84147C5D1F3E071B006F056D /* PBXTargetDependency */ = {
+		84147CBD1F3E0BD9006F056D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 84147C511F3E071A006F056D /* MockStoreKit_iOS */;
-			targetProxy = 84147C5C1F3E071B006F056D /* PBXContainerItemProxy */;
+			target = 84147CB11F3E0BD9006F056D /* MockStoreKit_TV */;
+			targetProxy = 84147CBC1F3E0BD9006F056D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		84147C2D1F3E0619006F056D /* Debug */ = {
+		84147CA11F3E0B89006F056D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MockStoreKit-TV/Info.plist";
+				INFOPLIST_FILE = MockStoreKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84147CA21F3E0B89006F056D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MockStoreKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84147CA41F3E0B89006F056D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MockStoreKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84147CA51F3E0B89006F056D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				INFOPLIST_FILE = MockStoreKitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84147CC41F3E0BD9006F056D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MockStoreKit_TV/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKit;
+				PRODUCT_MODULE_NAME = MockStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
-		84147C2E1F3E0619006F056D /* Release */ = {
+		84147CC51F3E0BD9006F056D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "MockStoreKit-TV/Info.plist";
+				INFOPLIST_FILE = MockStoreKit_TV/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = de.number42.MockStoreKit;
+				PRODUCT_MODULE_NAME = MockStoreKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -458,12 +523,12 @@
 			};
 			name = Release;
 		};
-		84147C301F3E0619006F056D /* Debug */ = {
+		84147CC71F3E0BD9006F056D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "MockStoreKit-TVTests/Info.plist";
+				INFOPLIST_FILE = MockStoreKit_TVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-TVTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,89 +538,18 @@
 			};
 			name = Debug;
 		};
-		84147C311F3E0619006F056D /* Release */ = {
+		84147CC81F3E0BD9006F056D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = "MockStoreKit-TVTests/Info.plist";
+				INFOPLIST_FILE = MockStoreKit_TVTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-TVTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
 				TVOS_DEPLOYMENT_TARGET = 10.2;
-			};
-			name = Release;
-		};
-		84147C641F3E071B006F056D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MockStoreKit_iOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		84147C651F3E071B006F056D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MockStoreKit_iOS/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
-		84147C671F3E071B006F056D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MockStoreKit_iOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		84147C681F3E071B006F056D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				INFOPLIST_FILE = MockStoreKit_iOSTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "de.number42.MockStoreKit-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -600,7 +594,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -647,7 +641,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -661,41 +655,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84147C2C1F3E0619006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TV" */ = {
+		84147CA01F3E0B89006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84147C2D1F3E0619006F056D /* Debug */,
-				84147C2E1F3E0619006F056D /* Release */,
+				84147CA11F3E0B89006F056D /* Debug */,
+				84147CA21F3E0B89006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		84147C2F1F3E0619006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TVTests" */ = {
+		84147CA31F3E0B89006F056D /* Build configuration list for PBXNativeTarget "MockStoreKitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84147C301F3E0619006F056D /* Debug */,
-				84147C311F3E0619006F056D /* Release */,
+				84147CA41F3E0B89006F056D /* Debug */,
+				84147CA51F3E0B89006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		84147C631F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOS" */ = {
+		84147CC31F3E0BD9006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84147C641F3E071B006F056D /* Debug */,
-				84147C651F3E071B006F056D /* Release */,
+				84147CC41F3E0BD9006F056D /* Debug */,
+				84147CC51F3E0BD9006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		84147C661F3E071B006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_iOSTests" */ = {
+		84147CC61F3E0BD9006F056D /* Build configuration list for PBXNativeTarget "MockStoreKit_TVTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84147C671F3E071B006F056D /* Debug */,
-				84147C681F3E071B006F056D /* Release */,
+				84147CC71F3E0BD9006F056D /* Debug */,
+				84147CC81F3E0BD9006F056D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		849261C21E58A6B900BC29DA /* Build configuration list for PBXProject "MockStoreKit" */ = {
 			isa = XCConfigurationList;
