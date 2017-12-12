@@ -1,3 +1,5 @@
+Attention: This is an alpha release!
+
 # MockStoreKit
 
 [![CI Status](http://img.shields.io/travis/num42/MockStoreKit.svg?style=flat)](https://travis-ci.org/num42/MockStoreKit)
