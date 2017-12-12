@@ -1,37 +1,9 @@
-# OS X
-.DS_Store
-
-# Xcode
-build/*
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
-xcuserdata
-profile
-*.moved-aside
-/Pods
-.bundle
-.DS_Store
-.rake_tasks
-fastlane/screenshots
-fastlane/report.xml
-stacks.app.dSYM.zip
-stacks.ipa
-*.mobileprovision
-.idea
-ipas
-
-# Bundler
-.bundle
-
-Pods/
-/Carthage
-/Example/build
-UserInterfaceState.xcuserstate
+/TraitAwareVC-Demo/TraitAwareVC-Demo.xcodeproj/xcuserdata
+Build
+/TraitAwareVC-Demo/TraitAwareVC-Demo.xcodeproj/project.xcworkspace/xcuserdata
+/Example/MockStoreKit.xcworkspace/xcuserdata/admin.xcuserdatad
+/Example/MockStoreKit.xcodeproj/xcuserdata
+/Example/Pods
+/MockStoreKit.xcodeproj/xcuserdata
+/MockStoreKit.xcodeproj/project.xcworkspace/xcuserdata
+/fastlane/report.xml

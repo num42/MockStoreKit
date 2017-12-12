@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "MockStoreKit_Example.app"
-               BlueprintName = "MockStoreKit_Example"
-               ReferencedContainer = "container:MockStoreKit.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MockStoreKit_Tests.xctest"
-               BlueprintName = "MockStoreKit_Tests"
+               BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+               BuildableName = "MockStoreKit.framework"
+               BlueprintName = "MockStoreKit"
                ReferencedContainer = "container:MockStoreKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "MockStoreKit_Tests.xctest"
-               BlueprintName = "MockStoreKit_Tests"
+               BlueprintIdentifier = "84147C961F3E0B89006F056D"
+               BuildableName = "MockStoreKitTests.xctest"
+               BlueprintName = "MockStoreKitTests"
                ReferencedContainer = "container:MockStoreKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MockStoreKit_Example.app"
-            BlueprintName = "MockStoreKit_Example"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MockStoreKit_Example.app"
-            BlueprintName = "MockStoreKit_Example"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -94,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MockStoreKit_Example.app"
-            BlueprintName = "MockStoreKit_Example"
+            BlueprintIdentifier = "84147C8E1F3E0B89006F056D"
+            BuildableName = "MockStoreKit.framework"
+            BlueprintName = "MockStoreKit"
             ReferencedContainer = "container:MockStoreKit.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

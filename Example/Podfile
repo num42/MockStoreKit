@@ -1,6 +1,11 @@
 use_frameworks!
-target 'MockStoreKit_Tests' do
+
+target 'MockStoreKit_Example' do
   pod 'MockStoreKit', :path => '../'
-  
-  
+
+  target 'MockStoreKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
 end

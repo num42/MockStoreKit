@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "269E1D91C5BC4D4212C7BBEA4A0FE13E97428C5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "269E1D91C5BC4D4212C7BBEA4A0FE13E97428C5F" : 9223372036854775807,
+    "0371C2764402E5D0C662AB9ED2AFA244E7EE7435" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0AA2C2BD-5877-49B5-B9C5-C0EA7D76996A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "269E1D91C5BC4D4212C7BBEA4A0FE13E97428C5F" : "MockStoreKit\/",
+    "0371C2764402E5D0C662AB9ED2AFA244E7EE7435" : "savetv-ios-dev\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MockStoreKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MockStoreKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:num42\/savetv-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0371C2764402E5D0C662AB9ED2AFA244E7EE7435"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:num42\/MockStoreKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "269E1D91C5BC4D4212C7BBEA4A0FE13E97428C5F"
+    }
+  ]
+}
